@@ -18,7 +18,7 @@
 		46C3C1E521F216D90073F8FC /* HerokuApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 46C3C1DC21F216D90073F8FC /* HerokuApp.xcdatamodeld */; };
 		46C3C1E621F216D90073F8FC /* Varient+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C3C1DE21F216D90073F8FC /* Varient+CoreDataProperties.swift */; };
 		46C3C1E821F244770073F8FC /* ProductDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C3C1E721F244770073F8FC /* ProductDetailTableViewCell.swift */; };
-		46C3C1EA21F24E270073F8FC /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C3C1E921F24E270073F8FC /* Reachability.swift */; };
+		46C3C1EE21F253A70073F8FC /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C3C1ED21F253A70073F8FC /* Reachability.swift */; };
 		46DA7DC321EE529800695FA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DA7DC221EE529800695FA4 /* AppDelegate.swift */; };
 		46DA7DC821EE529800695FA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46DA7DC621EE529800695FA4 /* Main.storyboard */; };
 		46DA7DCD21EE529A00695FA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46DA7DCC21EE529A00695FA4 /* Assets.xcassets */; };
@@ -28,6 +28,9 @@
 		46DA7DF521EE64A200695FA4 /* ServiceRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DA7DF421EE64A200695FA4 /* ServiceRouter.swift */; };
 		46E8149721EFA3C700654C1A /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E8149621EFA3C700654C1A /* AppConstants.swift */; };
 		46E8149A21EFBA2C00654C1A /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E8149921EFBA2C00654C1A /* CategoriesViewController.swift */; };
+		5552EB2068DDE1FA42B6CA3E /* Pods_HerokuApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0E7A4AD31A190BB17681305 /* Pods_HerokuApp.framework */; };
+		B5BCEA6FDF4CEF0354BDA2AB /* Pods_HerokuAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88421594A896240CA8E83085 /* Pods_HerokuAppUITests.framework */; };
+		CCD55E4B4C4139B0892E6E06 /* Pods_HerokuAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C694B69DA3848DB146FA31 /* Pods_HerokuAppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		076EFADA8836048787E6F01F /* Pods-HerokuAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HerokuAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HerokuAppUITests/Pods-HerokuAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		18C694B69DA3848DB146FA31 /* Pods_HerokuAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HerokuAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CBF81AFA10943B100BD1D6E /* Pods-HerokuApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HerokuApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HerokuApp/Pods-HerokuApp.debug.xcconfig"; sourceTree = "<group>"; };
+		3451BFF41D462E9B3F2BFA74 /* Pods-HerokuApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HerokuApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-HerokuApp/Pods-HerokuApp.release.xcconfig"; sourceTree = "<group>"; };
+		40B85D6215689796FF877680 /* Pods-HerokuAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HerokuAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HerokuAppTests/Pods-HerokuAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		46C3C1D121F1A82C0073F8FC /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
 		46C3C1D321F1C0FD0073F8FC /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
 		46C3C1D621F216D90073F8FC /* Product+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Product+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -59,7 +67,7 @@
 		46C3C1DD21F216D90073F8FC /* HeadyEcommerce.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HeadyEcommerce.xcdatamodel; sourceTree = "<group>"; };
 		46C3C1DE21F216D90073F8FC /* Varient+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Varient+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		46C3C1E721F244770073F8FC /* ProductDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailTableViewCell.swift; sourceTree = "<group>"; };
-		46C3C1E921F24E270073F8FC /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		46C3C1ED21F253A70073F8FC /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		46DA7DBF21EE529800695FA4 /* HerokuApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HerokuApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46DA7DC221EE529800695FA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46DA7DC721EE529800695FA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -75,6 +83,10 @@
 		46DA7DF421EE64A200695FA4 /* ServiceRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceRouter.swift; sourceTree = "<group>"; };
 		46E8149621EFA3C700654C1A /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		46E8149921EFBA2C00654C1A /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		8748E704EE0FF2E01BF61828 /* Pods-HerokuAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HerokuAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HerokuAppTests/Pods-HerokuAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		88421594A896240CA8E83085 /* Pods_HerokuAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HerokuAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0E7A4AD31A190BB17681305 /* Pods_HerokuApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HerokuApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC17481628AD1C86649664FE /* Pods-HerokuAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HerokuAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HerokuAppUITests/Pods-HerokuAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5552EB2068DDE1FA42B6CA3E /* Pods_HerokuApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCD55E4B4C4139B0892E6E06 /* Pods_HerokuAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,12 +110,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5BCEA6FDF4CEF0354BDA2AB /* Pods_HerokuAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		093824ADDF80890FAE16A0DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0E7A4AD31A190BB17681305 /* Pods_HerokuApp.framework */,
+				18C694B69DA3848DB146FA31 /* Pods_HerokuAppTests.framework */,
+				88421594A896240CA8E83085 /* Pods_HerokuAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		10B1E6B62B66091F74612417 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CBF81AFA10943B100BD1D6E /* Pods-HerokuApp.debug.xcconfig */,
+				3451BFF41D462E9B3F2BFA74 /* Pods-HerokuApp.release.xcconfig */,
+				40B85D6215689796FF877680 /* Pods-HerokuAppTests.debug.xcconfig */,
+				8748E704EE0FF2E01BF61828 /* Pods-HerokuAppTests.release.xcconfig */,
+				076EFADA8836048787E6F01F /* Pods-HerokuAppUITests.debug.xcconfig */,
+				DC17481628AD1C86649664FE /* Pods-HerokuAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		46C3C1D021F1A7B50073F8FC /* Cells */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +171,8 @@
 				46DA7DD921EE529A00695FA4 /* HerokuAppTests */,
 				46DA7DE421EE529A00695FA4 /* HerokuAppUITests */,
 				46DA7DC021EE529800695FA4 /* Products */,
+				10B1E6B62B66091F74612417 /* Pods */,
+				093824ADDF80890FAE16A0DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -149,7 +189,6 @@
 		46DA7DC121EE529800695FA4 /* HerokuApp */ = {
 			isa = PBXGroup;
 			children = (
-				46C3C1E921F24E270073F8FC /* Reachability.swift */,
 				46E8149521EF8B8000654C1A /* APIConstants */,
 				46DA7DC221EE529800695FA4 /* AppDelegate.swift */,
 				46DA7DCC21EE529A00695FA4 /* Assets.xcassets */,
@@ -185,6 +224,7 @@
 		46DA7DF321EE641100695FA4 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				46C3C1ED21F253A70073F8FC /* Reachability.swift */,
 				46DA7DF421EE64A200695FA4 /* ServiceRouter.swift */,
 			);
 			path = Service;
@@ -214,9 +254,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46DA7DEA21EE529A00695FA4 /* Build configuration list for PBXNativeTarget "HerokuApp" */;
 			buildPhases = (
+				B6A0D9319DB47B032C3BC150 /* [CP] Check Pods Manifest.lock */,
 				46DA7DBB21EE529800695FA4 /* Sources */,
 				46DA7DBC21EE529800695FA4 /* Frameworks */,
 				46DA7DBD21EE529800695FA4 /* Resources */,
+				9BD96A8A6F77B5E66BF20573 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,6 +273,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46DA7DED21EE529A00695FA4 /* Build configuration list for PBXNativeTarget "HerokuAppTests" */;
 			buildPhases = (
+				F1F0D79884135F8631BB9A7B /* [CP] Check Pods Manifest.lock */,
 				46DA7DD221EE529A00695FA4 /* Sources */,
 				46DA7DD321EE529A00695FA4 /* Frameworks */,
 				46DA7DD421EE529A00695FA4 /* Resources */,
@@ -249,6 +292,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46DA7DF021EE529A00695FA4 /* Build configuration list for PBXNativeTarget "HerokuAppUITests" */;
 			buildPhases = (
+				527B11E827A5886493B93149 /* [CP] Check Pods Manifest.lock */,
 				46DA7DDD21EE529A00695FA4 /* Sources */,
 				46DA7DDE21EE529A00695FA4 /* Frameworks */,
 				46DA7DDF21EE529A00695FA4 /* Resources */,
@@ -333,6 +377,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		527B11E827A5886493B93149 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HerokuAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BD96A8A6F77B5E66BF20573 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HerokuApp/Pods-HerokuApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HerokuApp/Pods-HerokuApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6A0D9319DB47B032C3BC150 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HerokuApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1F0D79884135F8631BB9A7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HerokuAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		46DA7DBB21EE529800695FA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -344,6 +463,7 @@
 				46C3C1E421F216D90073F8FC /* Category+CoreDataClass.swift in Sources */,
 				46C3C1D421F1C0FD0073F8FC /* ProductsViewController.swift in Sources */,
 				46C3C1E021F216D90073F8FC /* CoreDataManager.swift in Sources */,
+				46C3C1EE21F253A70073F8FC /* Reachability.swift in Sources */,
 				46C3C1DF21F216D90073F8FC /* Product+CoreDataClass.swift in Sources */,
 				46DA7DC321EE529800695FA4 /* AppDelegate.swift in Sources */,
 				46C3C1E821F244770073F8FC /* ProductDetailTableViewCell.swift in Sources */,
@@ -352,7 +472,6 @@
 				46C3C1E121F216D90073F8FC /* Varient+CoreDataClass.swift in Sources */,
 				46E8149A21EFBA2C00654C1A /* CategoriesViewController.swift in Sources */,
 				46C3C1E521F216D90073F8FC /* HerokuApp.xcdatamodeld in Sources */,
-				46C3C1EA21F24E270073F8FC /* Reachability.swift in Sources */,
 				46C3C1D221F1A82C0073F8FC /* CategoryTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -526,6 +645,7 @@
 		};
 		46DA7DEB21EE529A00695FA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CBF81AFA10943B100BD1D6E /* Pods-HerokuApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -543,6 +663,7 @@
 		};
 		46DA7DEC21EE529A00695FA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3451BFF41D462E9B3F2BFA74 /* Pods-HerokuApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -560,6 +681,7 @@
 		};
 		46DA7DEE21EE529A00695FA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40B85D6215689796FF877680 /* Pods-HerokuAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -580,6 +702,7 @@
 		};
 		46DA7DEF21EE529A00695FA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8748E704EE0FF2E01BF61828 /* Pods-HerokuAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -600,6 +723,7 @@
 		};
 		46DA7DF121EE529A00695FA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 076EFADA8836048787E6F01F /* Pods-HerokuAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -619,6 +743,7 @@
 		};
 		46DA7DF221EE529A00695FA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC17481628AD1C86649664FE /* Pods-HerokuAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

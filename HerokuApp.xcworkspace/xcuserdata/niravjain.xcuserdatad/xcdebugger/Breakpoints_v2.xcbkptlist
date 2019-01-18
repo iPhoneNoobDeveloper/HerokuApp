@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HerokuApp/ViewControllers/CategoriesViewController.swift"
+            timestampString = "569529794.245657"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "configureCategoryCell(_:indexPath:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HerokuApp.CategoriesViewController.configureCategoryCell(_: HerokuApp.CategoryTableViewCell, indexPath: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "HerokuApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/niravjain/Documents/GitHub/HerokuApp/HerokuApp/ViewControllers/CategoriesViewController.swift"
+                  timestampString = "569529794.402939"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "119"
+                  endingLineNumber = "119"
+                  offsetFromSymbolStart = "817">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HerokuApp.CategoriesViewController.configureCategoryCell(_: HerokuApp.CategoryTableViewCell, indexPath: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "HerokuApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/niravjain/Documents/GitHub/HerokuApp/HerokuApp/ViewControllers/CategoriesViewController.swift"
+                  timestampString = "569529794.40465"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "119"
+                  endingLineNumber = "119"
+                  offsetFromSymbolStart = "1672">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HerokuApp/ViewControllers/ProductsViewController.swift"
+            timestampString = "569529741.890857"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "ProductsViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HerokuApp.ProductsViewController.product.getter : Swift.Optional&lt;HerokuApp.Product&gt;"
+                  moduleName = "HerokuApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/niravjain/Documents/GitHub/HerokuApp/HerokuApp/ViewControllers/ProductsViewController.swift"
+                  timestampString = "569529794.414446"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "114">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HerokuApp.ProductsViewController.product.setter : Swift.Optional&lt;HerokuApp.Product&gt;"
+                  moduleName = "HerokuApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/niravjain/Documents/GitHub/HerokuApp/HerokuApp/ViewControllers/ProductsViewController.swift"
+                  timestampString = "569529794.416351"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HerokuApp.ProductsViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; HerokuApp.ProductsViewController"
+                  moduleName = "HerokuApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/niravjain/Documents/GitHub/HerokuApp/HerokuApp/ViewControllers/ProductsViewController.swift"
+                  timestampString = "569529794.418133"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HerokuApp.ProductsViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;HerokuApp.ProductsViewController&gt;"
+                  moduleName = "HerokuApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/niravjain/Documents/GitHub/HerokuApp/HerokuApp/ViewControllers/ProductsViewController.swift"
+                  timestampString = "569529794.420789"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "50">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HerokuApp/ViewControllers/CategoriesViewController.swift"
+            timestampString = "569529794.246056"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HerokuApp/ViewControllers/CategoriesViewController.swift"
+            timestampString = "569529794.2464091"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

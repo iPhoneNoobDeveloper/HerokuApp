@@ -1,0 +1,944 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1610DE277B837798D10B358C30C6CFB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C3A1F100D6DE00B711E31320AFB0EB /* Foundation.framework */; };
+		18F8E0B5DEB93FAF2929474CF44E332D /* Pods-HerokuAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C7A6DE7CEC812B39FD0C4EDFA4AE3A /* Pods-HerokuAppUITests-dummy.m */; };
+		287EA4A0A0FAF1D730C9C726EEED2899 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C3A1F100D6DE00B711E31320AFB0EB /* Foundation.framework */; };
+		352EABDAE90B64C3399A41747DC3E4EB /* Pods-HerokuApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D76014E187508354C096584024A20772 /* Pods-HerokuApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37304913D7195074D062B8D7FAA82BED /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77AA8FC57764E9577CA25AFE700170D3 /* SystemConfiguration.framework */; };
+		8497361F7D0D14FD01FA8163CB0FC402 /* Pods-HerokuAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14CC1386FD9AB07C0C5CCB6704F0D985 /* Pods-HerokuAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E1D986FB5098639510DDB7DAF6F095E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C3A1F100D6DE00B711E31320AFB0EB /* Foundation.framework */; };
+		95BB647B05AFFDF0D5AE4085BF341A09 /* ReachabilitySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46065BF36F40A62E41851121E21E3283 /* ReachabilitySwift-dummy.m */; };
+		96552A2F979E77E0C2709FE3FCE0791C /* Pods-HerokuApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B48F6D4A01A482F5E9B7572BEAA196 /* Pods-HerokuApp-dummy.m */; };
+		9ADFF8EE2E95E2BBB80FBC3BA833BBE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C3A1F100D6DE00B711E31320AFB0EB /* Foundation.framework */; };
+		A9FBB08A43D6B7267A9ECDF7920B195B /* Pods-HerokuAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA970B221633F6906DCDC6D0C7EAB80C /* Pods-HerokuAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB996421173C71F7FD7E1C94455FC1BD /* Pods-HerokuAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28275006164EF5FFAB929DC16FE04470 /* Pods-HerokuAppTests-dummy.m */; };
+		C0AE4EDDF0BD24D55CD56E430984CE69 /* ReachabilitySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B5FF138CEF7D038670CB3511971E565 /* ReachabilitySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5224ACF88BE5107D53BF5B48A1803D9 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D97DA20891F46C74C1B85EF67D7F46 /* Reachability.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28CC95E13C3E8987430648BEA2E1BA67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA28698125BF1246380801D8EE590CEC;
+			remoteInfo = "Pods-HerokuApp";
+		};
+		37DD5F051FBE46B4FADE3BCC1A2B1961 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10DCF9CB899FE2AF03A213B86029AEDC;
+			remoteInfo = ReachabilitySwift;
+		};
+		BCDFAEDA4471FE056D65C50CD44B740C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA28698125BF1246380801D8EE590CEC;
+			remoteInfo = "Pods-HerokuApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0602A9C161568F4F16C46480ABF8542D /* Pods-HerokuAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HerokuAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		0B783BE70CD86384836E3B66DD79AC76 /* Pods-HerokuApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HerokuApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		0E100A6C0A71773E80F471F32FCF02BB /* Pods_HerokuApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HerokuApp.framework; path = "Pods-HerokuApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13EB7E699F4BC2DF7FC9265D7D613255 /* Pods-HerokuAppUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HerokuAppUITests-resources.sh"; sourceTree = "<group>"; };
+		14CC1386FD9AB07C0C5CCB6704F0D985 /* Pods-HerokuAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HerokuAppTests-umbrella.h"; sourceTree = "<group>"; };
+		175FA22CE208DF95A54BA21AF38C0143 /* Pods-HerokuAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HerokuAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1CECB4A46677665F4C02EAA23EFCE388 /* Pods-HerokuAppTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HerokuAppTests-resources.sh"; sourceTree = "<group>"; };
+		1F992921909D7C9E08050C80028E3080 /* ReachabilitySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReachabilitySwift.modulemap; sourceTree = "<group>"; };
+		20F8D33C6EC1FB8E8F94407A3A882B80 /* Pods-HerokuAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HerokuAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		227DA8A1384C1ADEFC27E42099FD94E8 /* Pods-HerokuAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HerokuAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		28275006164EF5FFAB929DC16FE04470 /* Pods-HerokuAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HerokuAppTests-dummy.m"; sourceTree = "<group>"; };
+		3282204964780E3257ADA5B805429C69 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		355ADA3160F603CB77272A39DC458FC6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D8BE4274635C55DC125CD9C7A6AA886 /* Pods_HerokuAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HerokuAppTests.framework; path = "Pods-HerokuAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F5953B45C097D0F5383884293824B0E /* Pods-HerokuAppTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HerokuAppTests-frameworks.sh"; sourceTree = "<group>"; };
+		418E7E6C2F51AF6A0E8C0E272462BDD6 /* Pods-HerokuAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HerokuAppUITests.modulemap"; sourceTree = "<group>"; };
+		42D97DA20891F46C74C1B85EF67D7F46 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Sources/Reachability.swift; sourceTree = "<group>"; };
+		46065BF36F40A62E41851121E21E3283 /* ReachabilitySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReachabilitySwift-dummy.m"; sourceTree = "<group>"; };
+		540C70E52045703B84EAF13C09451E66 /* Pods-HerokuAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HerokuAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		61413E3C7CCD43916CFA1476A3640889 /* Pods-HerokuApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HerokuApp.release.xcconfig"; sourceTree = "<group>"; };
+		65C7A6DE7CEC812B39FD0C4EDFA4AE3A /* Pods-HerokuAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HerokuAppUITests-dummy.m"; sourceTree = "<group>"; };
+		74B48F6D4A01A482F5E9B7572BEAA196 /* Pods-HerokuApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HerokuApp-dummy.m"; sourceTree = "<group>"; };
+		77AA8FC57764E9577CA25AFE700170D3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		875A712D15B07AC9A10E813962FC325F /* Pods-HerokuAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HerokuAppTests.modulemap"; sourceTree = "<group>"; };
+		88672D3360E26CA55F3D0A29FD578761 /* Pods-HerokuApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HerokuApp.modulemap"; sourceTree = "<group>"; };
+		8980F3364F945A0A53BCF956CBF718A9 /* ReachabilitySwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.xcconfig; sourceTree = "<group>"; };
+		931EF90ACCA64AD7673C306CEECD7055 /* Pods_HerokuAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HerokuAppUITests.framework; path = "Pods-HerokuAppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93B1BE9EE754488E2CDD8B333D86835E /* Pods-HerokuApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HerokuApp-resources.sh"; sourceTree = "<group>"; };
+		9B5FF138CEF7D038670CB3511971E565 /* ReachabilitySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-umbrella.h"; sourceTree = "<group>"; };
+		A3985735CD0CAADB96DB2023A3FBFE98 /* Pods-HerokuAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HerokuAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AF964E10D42AE1499BE69471AD0B97DA /* ReachabilitySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-prefix.pch"; sourceTree = "<group>"; };
+		B1C3A1F100D6DE00B711E31320AFB0EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B63E819EED6630642E478DFBBA9C9BD9 /* Pods-HerokuAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HerokuAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA23AEDDD7282902B23C5D4DD935B886 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA970B221633F6906DCDC6D0C7EAB80C /* Pods-HerokuAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HerokuAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		CA5E320A5D3BF8FE35B835B9DEE8A4A8 /* Pods-HerokuApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HerokuApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CBC09C251365C6FF35C73DFA892BE427 /* Pods-HerokuAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HerokuAppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		D76014E187508354C096584024A20772 /* Pods-HerokuApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HerokuApp-umbrella.h"; sourceTree = "<group>"; };
+		D90B9A088C5977E92B1562FAD0EA59F6 /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Reachability.framework; path = ReachabilitySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFC0A325243353701B74FBCBB1BA2978 /* Pods-HerokuApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HerokuApp-frameworks.sh"; sourceTree = "<group>"; };
+		F3204CB6E8A54566ED9BFF4F048E8C03 /* Pods-HerokuApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HerokuApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F62A745A0A8C0018355F0653265D996A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7D415CF376E4854B48DE7A45D260018 /* Pods-HerokuAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HerokuAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EDEF5B722535245B1F3547BF21A873F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1610DE277B837798D10B358C30C6CFB1 /* Foundation.framework in Frameworks */,
+				37304913D7195074D062B8D7FAA82BED /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3094C1629BDE26D0ED6F9E41F2AA8C09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1D986FB5098639510DDB7DAF6F095E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A2D7F77C81DED11F631EDB134F28078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ADFF8EE2E95E2BBB80FBC3BA833BBE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512D1CA98AFC7588D5805773A0E79016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287EA4A0A0FAF1D730C9C726EEED2899 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27B754B14E7F5BDD025A603861F1DD97 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B1C3A1F100D6DE00B711E31320AFB0EB /* Foundation.framework */,
+				77AA8FC57764E9577CA25AFE700170D3 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		386E6737EB296A392B9C38F87D1E8423 /* Pods-HerokuApp */ = {
+			isa = PBXGroup;
+			children = (
+				BA23AEDDD7282902B23C5D4DD935B886 /* Info.plist */,
+				88672D3360E26CA55F3D0A29FD578761 /* Pods-HerokuApp.modulemap */,
+				CA5E320A5D3BF8FE35B835B9DEE8A4A8 /* Pods-HerokuApp-acknowledgements.markdown */,
+				0B783BE70CD86384836E3B66DD79AC76 /* Pods-HerokuApp-acknowledgements.plist */,
+				74B48F6D4A01A482F5E9B7572BEAA196 /* Pods-HerokuApp-dummy.m */,
+				DFC0A325243353701B74FBCBB1BA2978 /* Pods-HerokuApp-frameworks.sh */,
+				93B1BE9EE754488E2CDD8B333D86835E /* Pods-HerokuApp-resources.sh */,
+				D76014E187508354C096584024A20772 /* Pods-HerokuApp-umbrella.h */,
+				F3204CB6E8A54566ED9BFF4F048E8C03 /* Pods-HerokuApp.debug.xcconfig */,
+				61413E3C7CCD43916CFA1476A3640889 /* Pods-HerokuApp.release.xcconfig */,
+			);
+			name = "Pods-HerokuApp";
+			path = "Target Support Files/Pods-HerokuApp";
+			sourceTree = "<group>";
+		};
+		3B51688ED6FD58186F2309D869290BC8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				386E6737EB296A392B9C38F87D1E8423 /* Pods-HerokuApp */,
+				54A45CF549C7D425133901A97180582E /* Pods-HerokuAppTests */,
+				A7AC91C6DFFBBE0AC3A81037D5D53543 /* Pods-HerokuAppUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4202A6F1809EBAEB4DD3F8B768EB4144 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				355ADA3160F603CB77272A39DC458FC6 /* Info.plist */,
+				1F992921909D7C9E08050C80028E3080 /* ReachabilitySwift.modulemap */,
+				8980F3364F945A0A53BCF956CBF718A9 /* ReachabilitySwift.xcconfig */,
+				46065BF36F40A62E41851121E21E3283 /* ReachabilitySwift-dummy.m */,
+				AF964E10D42AE1499BE69471AD0B97DA /* ReachabilitySwift-prefix.pch */,
+				9B5FF138CEF7D038670CB3511971E565 /* ReachabilitySwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ReachabilitySwift";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27B754B14E7F5BDD025A603861F1DD97 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54A45CF549C7D425133901A97180582E /* Pods-HerokuAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3282204964780E3257ADA5B805429C69 /* Info.plist */,
+				875A712D15B07AC9A10E813962FC325F /* Pods-HerokuAppTests.modulemap */,
+				A3985735CD0CAADB96DB2023A3FBFE98 /* Pods-HerokuAppTests-acknowledgements.markdown */,
+				175FA22CE208DF95A54BA21AF38C0143 /* Pods-HerokuAppTests-acknowledgements.plist */,
+				28275006164EF5FFAB929DC16FE04470 /* Pods-HerokuAppTests-dummy.m */,
+				3F5953B45C097D0F5383884293824B0E /* Pods-HerokuAppTests-frameworks.sh */,
+				1CECB4A46677665F4C02EAA23EFCE388 /* Pods-HerokuAppTests-resources.sh */,
+				14CC1386FD9AB07C0C5CCB6704F0D985 /* Pods-HerokuAppTests-umbrella.h */,
+				227DA8A1384C1ADEFC27E42099FD94E8 /* Pods-HerokuAppTests.debug.xcconfig */,
+				0602A9C161568F4F16C46480ABF8542D /* Pods-HerokuAppTests.release.xcconfig */,
+			);
+			name = "Pods-HerokuAppTests";
+			path = "Target Support Files/Pods-HerokuAppTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				9BCD5CBAACE7E3EBED55F693896BB924 /* Pods */,
+				AF180138AD8D7B56A8893B32E7281841 /* Products */,
+				3B51688ED6FD58186F2309D869290BC8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		85DA8CCA6D2501C9340CBFA018A4488A /* ReachabilitySwift */ = {
+			isa = PBXGroup;
+			children = (
+				42D97DA20891F46C74C1B85EF67D7F46 /* Reachability.swift */,
+				4202A6F1809EBAEB4DD3F8B768EB4144 /* Support Files */,
+			);
+			name = ReachabilitySwift;
+			path = ReachabilitySwift;
+			sourceTree = "<group>";
+		};
+		9BCD5CBAACE7E3EBED55F693896BB924 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85DA8CCA6D2501C9340CBFA018A4488A /* ReachabilitySwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A7AC91C6DFFBBE0AC3A81037D5D53543 /* Pods-HerokuAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F62A745A0A8C0018355F0653265D996A /* Info.plist */,
+				418E7E6C2F51AF6A0E8C0E272462BDD6 /* Pods-HerokuAppUITests.modulemap */,
+				20F8D33C6EC1FB8E8F94407A3A882B80 /* Pods-HerokuAppUITests-acknowledgements.markdown */,
+				B63E819EED6630642E478DFBBA9C9BD9 /* Pods-HerokuAppUITests-acknowledgements.plist */,
+				65C7A6DE7CEC812B39FD0C4EDFA4AE3A /* Pods-HerokuAppUITests-dummy.m */,
+				CBC09C251365C6FF35C73DFA892BE427 /* Pods-HerokuAppUITests-frameworks.sh */,
+				13EB7E699F4BC2DF7FC9265D7D613255 /* Pods-HerokuAppUITests-resources.sh */,
+				BA970B221633F6906DCDC6D0C7EAB80C /* Pods-HerokuAppUITests-umbrella.h */,
+				F7D415CF376E4854B48DE7A45D260018 /* Pods-HerokuAppUITests.debug.xcconfig */,
+				540C70E52045703B84EAF13C09451E66 /* Pods-HerokuAppUITests.release.xcconfig */,
+			);
+			name = "Pods-HerokuAppUITests";
+			path = "Target Support Files/Pods-HerokuAppUITests";
+			sourceTree = "<group>";
+		};
+		AF180138AD8D7B56A8893B32E7281841 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E100A6C0A71773E80F471F32FCF02BB /* Pods_HerokuApp.framework */,
+				3D8BE4274635C55DC125CD9C7A6AA886 /* Pods_HerokuAppTests.framework */,
+				931EF90ACCA64AD7673C306CEECD7055 /* Pods_HerokuAppUITests.framework */,
+				D90B9A088C5977E92B1562FAD0EA59F6 /* Reachability.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		69003028C47258EA2C9640E7B962E3AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				352EABDAE90B64C3399A41747DC3E4EB /* Pods-HerokuApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75AD7FC3470C7FEFBCFFED046EB9CD27 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9FBB08A43D6B7267A9ECDF7920B195B /* Pods-HerokuAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B84CEED3C2075C7566D6BEE99BF9274 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0AE4EDDF0BD24D55CD56E430984CE69 /* ReachabilitySwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4FDCFA969CB4B2DA803A5A3A88A7129 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8497361F7D0D14FD01FA8163CB0FC402 /* Pods-HerokuAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		10DCF9CB899FE2AF03A213B86029AEDC /* ReachabilitySwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61A2FB85A1CFEEE47BF2B42A09A389AE /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */;
+			buildPhases = (
+				32109D3A469209B274B3138EFD25A053 /* Sources */,
+				1EDEF5B722535245B1F3547BF21A873F /* Frameworks */,
+				8B84CEED3C2075C7566D6BEE99BF9274 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReachabilitySwift;
+			productName = ReachabilitySwift;
+			productReference = D90B9A088C5977E92B1562FAD0EA59F6 /* Reachability.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B76BB9686FFFAC832BC15E1339CC1273 /* Pods-HerokuAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2504E15AA4DFD7B65EEF4800BB5F3A66 /* Build configuration list for PBXNativeTarget "Pods-HerokuAppTests" */;
+			buildPhases = (
+				2117D78A4773EAA435306E4929F8A124 /* Sources */,
+				3094C1629BDE26D0ED6F9E41F2AA8C09 /* Frameworks */,
+				F4FDCFA969CB4B2DA803A5A3A88A7129 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC61DF625E9CC5EAC1D41B98EF09AA29 /* PBXTargetDependency */,
+			);
+			name = "Pods-HerokuAppTests";
+			productName = "Pods-HerokuAppTests";
+			productReference = 3D8BE4274635C55DC125CD9C7A6AA886 /* Pods_HerokuAppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CA28698125BF1246380801D8EE590CEC /* Pods-HerokuApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 034BABBDC43B72BB74DCF94317F0A585 /* Build configuration list for PBXNativeTarget "Pods-HerokuApp" */;
+			buildPhases = (
+				1CE29F3A9FE639207E0BE1E7EB88577B /* Sources */,
+				512D1CA98AFC7588D5805773A0E79016 /* Frameworks */,
+				69003028C47258EA2C9640E7B962E3AC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6D5840AD2381A806CFE4BCE752E303D /* PBXTargetDependency */,
+			);
+			name = "Pods-HerokuApp";
+			productName = "Pods-HerokuApp";
+			productReference = 0E100A6C0A71773E80F471F32FCF02BB /* Pods_HerokuApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EEA457EB17C35FE08549E95FAE2B419E /* Pods-HerokuAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D40A3988AAA3959758F9A9F371F4C13 /* Build configuration list for PBXNativeTarget "Pods-HerokuAppUITests" */;
+			buildPhases = (
+				906201D38F2A170A1AD24A0E41EE34AB /* Sources */,
+				4A2D7F77C81DED11F631EDB134F28078 /* Frameworks */,
+				75AD7FC3470C7FEFBCFFED046EB9CD27 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3AF4D72ADB030D9A638B645B9EDA109 /* PBXTargetDependency */,
+			);
+			name = "Pods-HerokuAppUITests";
+			productName = "Pods-HerokuAppUITests";
+			productReference = 931EF90ACCA64AD7673C306CEECD7055 /* Pods_HerokuAppUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = AF180138AD8D7B56A8893B32E7281841 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA28698125BF1246380801D8EE590CEC /* Pods-HerokuApp */,
+				B76BB9686FFFAC832BC15E1339CC1273 /* Pods-HerokuAppTests */,
+				EEA457EB17C35FE08549E95FAE2B419E /* Pods-HerokuAppUITests */,
+				10DCF9CB899FE2AF03A213B86029AEDC /* ReachabilitySwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CE29F3A9FE639207E0BE1E7EB88577B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96552A2F979E77E0C2709FE3FCE0791C /* Pods-HerokuApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2117D78A4773EAA435306E4929F8A124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB996421173C71F7FD7E1C94455FC1BD /* Pods-HerokuAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32109D3A469209B274B3138EFD25A053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5224ACF88BE5107D53BF5B48A1803D9 /* Reachability.swift in Sources */,
+				95BB647B05AFFDF0D5AE4085BF341A09 /* ReachabilitySwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		906201D38F2A170A1AD24A0E41EE34AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F8E0B5DEB93FAF2929474CF44E332D /* Pods-HerokuAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3AF4D72ADB030D9A638B645B9EDA109 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HerokuApp";
+			target = CA28698125BF1246380801D8EE590CEC /* Pods-HerokuApp */;
+			targetProxy = BCDFAEDA4471FE056D65C50CD44B740C /* PBXContainerItemProxy */;
+		};
+		F6D5840AD2381A806CFE4BCE752E303D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReachabilitySwift;
+			target = 10DCF9CB899FE2AF03A213B86029AEDC /* ReachabilitySwift */;
+			targetProxy = 37DD5F051FBE46B4FADE3BCC1A2B1961 /* PBXContainerItemProxy */;
+		};
+		FC61DF625E9CC5EAC1D41B98EF09AA29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HerokuApp";
+			target = CA28698125BF1246380801D8EE590CEC /* Pods-HerokuApp */;
+			targetProxy = 28CC95E13C3E8987430648BEA2E1BA67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04083ECDCBCB84A9BE6D64B6AB8B7579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0602A9C161568F4F16C46480ABF8542D /* Pods-HerokuAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HerokuAppTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HerokuAppTests/Pods-HerokuAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0E12B7268EF0862DFEEB8B6B0BD7C9F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		366AE04C57AD83E5FF05C3601F2BB769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7D415CF376E4854B48DE7A45D260018 /* Pods-HerokuAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HerokuAppUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HerokuAppUITests/Pods-HerokuAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3839DB4D94A17DE07AD1ED61F4912F64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 227DA8A1384C1ADEFC27E42099FD94E8 /* Pods-HerokuAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HerokuAppTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HerokuAppTests/Pods-HerokuAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		69D9085334D1D945E7D2B92C7C5B01FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8980F3364F945A0A53BCF956CBF718A9 /* ReachabilitySwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		89248EF71BE888F811756AD797DA9234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 540C70E52045703B84EAF13C09451E66 /* Pods-HerokuAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HerokuAppUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HerokuAppUITests/Pods-HerokuAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9EF4D29C645FCA2607D9A04435FD1A6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3204CB6E8A54566ED9BFF4F048E8C03 /* Pods-HerokuApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HerokuApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HerokuApp/Pods-HerokuApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CD8324D57CD462761E218EEA4EA91EC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		ED25A6F286EECC6CC4FF445F3D9B341C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8980F3364F945A0A53BCF956CBF718A9 /* ReachabilitySwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF4DA4EF14FCADC2633840832D2B7DB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61413E3C7CCD43916CFA1476A3640889 /* Pods-HerokuApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HerokuApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HerokuApp/Pods-HerokuApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		034BABBDC43B72BB74DCF94317F0A585 /* Build configuration list for PBXNativeTarget "Pods-HerokuApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EF4D29C645FCA2607D9A04435FD1A6A /* Debug */,
+				FF4DA4EF14FCADC2633840832D2B7DB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D40A3988AAA3959758F9A9F371F4C13 /* Build configuration list for PBXNativeTarget "Pods-HerokuAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				366AE04C57AD83E5FF05C3601F2BB769 /* Debug */,
+				89248EF71BE888F811756AD797DA9234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2504E15AA4DFD7B65EEF4800BB5F3A66 /* Build configuration list for PBXNativeTarget "Pods-HerokuAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3839DB4D94A17DE07AD1ED61F4912F64 /* Debug */,
+				04083ECDCBCB84A9BE6D64B6AB8B7579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E12B7268EF0862DFEEB8B6B0BD7C9F4 /* Debug */,
+				CD8324D57CD462761E218EEA4EA91EC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61A2FB85A1CFEEE47BF2B42A09A389AE /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69D9085334D1D945E7D2B92C7C5B01FA /* Debug */,
+				ED25A6F286EECC6CC4FF445F3D9B341C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -48,18 +48,24 @@ class CategoriesViewController: UIViewController {
     
     func fetchCategories(){
         
-        
-        UIApplication.shared.isNetworkActivityIndicatorVisible = true
-        router.requestForCategories { (jsonData) in
-            
-            guard let json = jsonData else {
-                return
-            }
-            DispatchQueue.main.async {
-                Category.insertJsonData(json: json as! Result)
-                UIApplication.shared.isNetworkActivityIndicatorVisible = false
+        NetworkReachability.isReachable { (status) in
+            CoreDataManager.sharedInstance.clearPersistence()
+            UIApplication.shared.isNetworkActivityIndicatorVisible = true
+            self.router.requestForCategories { (jsonData) in
+                
+                guard let json = jsonData else {
+                    return
+                }
+                DispatchQueue.main.async {
+                    Category.insertJsonData(json: json as! Result)
+                    UIApplication.shared.isNetworkActivityIndicatorVisible = false
+                }
             }
         }
+        NetworkReachability.isUnreachable { (status) in
+            print("Network not reachable")
+        }
+        
     }
     
     func pushToChildCategoryViewController(category: Category) {
@@ -116,6 +122,7 @@ extension CategoriesViewController: UITableViewDelegate,UITableViewDataSource {
     func configureProductCell(_ cell: CategoryTableViewCell, indexPath: IndexPath) {
         guard let product = parentCategory?.products?.allObjects[indexPath.row] as? Product else { return }
         cell.categoryTitleLabel.text = product.name
+        cell.categoryImageLabel.text = String((product.name?.character(at: 0))!)
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
