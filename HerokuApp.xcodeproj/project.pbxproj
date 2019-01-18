@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46C3C1D221F1A82C0073F8FC /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C3C1D121F1A82C0073F8FC /* CategoryTableViewCell.swift */; };
+		46C3C1D421F1C0FD0073F8FC /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C3C1D321F1C0FD0073F8FC /* ProductsViewController.swift */; };
+		46C3C1DF21F216D90073F8FC /* Product+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C3C1D621F216D90073F8FC /* Product+CoreDataClass.swift */; };
+		46C3C1E021F216D90073F8FC /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C3C1D721F216D90073F8FC /* CoreDataManager.swift */; };
+		46C3C1E121F216D90073F8FC /* Varient+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C3C1D821F216D90073F8FC /* Varient+CoreDataClass.swift */; };
+		46C3C1E221F216D90073F8FC /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C3C1D921F216D90073F8FC /* Category+CoreDataProperties.swift */; };
+		46C3C1E321F216D90073F8FC /* Product+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C3C1DA21F216D90073F8FC /* Product+CoreDataProperties.swift */; };
+		46C3C1E421F216D90073F8FC /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C3C1DB21F216D90073F8FC /* Category+CoreDataClass.swift */; };
+		46C3C1E521F216D90073F8FC /* HerokuApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 46C3C1DC21F216D90073F8FC /* HerokuApp.xcdatamodeld */; };
+		46C3C1E621F216D90073F8FC /* Varient+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C3C1DE21F216D90073F8FC /* Varient+CoreDataProperties.swift */; };
+		46C3C1E821F244770073F8FC /* ProductDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C3C1E721F244770073F8FC /* ProductDetailTableViewCell.swift */; };
+		46C3C1EA21F24E270073F8FC /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C3C1E921F24E270073F8FC /* Reachability.swift */; };
+		46DA7DC321EE529800695FA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DA7DC221EE529800695FA4 /* AppDelegate.swift */; };
+		46DA7DC821EE529800695FA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46DA7DC621EE529800695FA4 /* Main.storyboard */; };
+		46DA7DCD21EE529A00695FA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46DA7DCC21EE529A00695FA4 /* Assets.xcassets */; };
+		46DA7DD021EE529A00695FA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46DA7DCE21EE529A00695FA4 /* LaunchScreen.storyboard */; };
+		46DA7DDB21EE529A00695FA4 /* HerokuAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DA7DDA21EE529A00695FA4 /* HerokuAppTests.swift */; };
+		46DA7DE621EE529A00695FA4 /* HerokuAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DA7DE521EE529A00695FA4 /* HerokuAppUITests.swift */; };
+		46DA7DF521EE64A200695FA4 /* ServiceRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DA7DF421EE64A200695FA4 /* ServiceRouter.swift */; };
+		46E8149721EFA3C700654C1A /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E8149621EFA3C700654C1A /* AppConstants.swift */; };
+		46E8149A21EFBA2C00654C1A /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E8149921EFBA2C00654C1A /* CategoriesViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46DA7DD721EE529A00695FA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46DA7DB721EE529800695FA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46DA7DBE21EE529800695FA4;
+			remoteInfo = HerokuApp;
+		};
+		46DA7DE221EE529A00695FA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46DA7DB721EE529800695FA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46DA7DBE21EE529800695FA4;
+			remoteInfo = HerokuApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46C3C1D121F1A82C0073F8FC /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		46C3C1D321F1C0FD0073F8FC /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		46C3C1D621F216D90073F8FC /* Product+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Product+CoreDataClass.swift"; sourceTree = "<group>"; };
+		46C3C1D721F216D90073F8FC /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		46C3C1D821F216D90073F8FC /* Varient+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Varient+CoreDataClass.swift"; sourceTree = "<group>"; };
+		46C3C1D921F216D90073F8FC /* Category+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		46C3C1DA21F216D90073F8FC /* Product+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Product+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		46C3C1DB21F216D90073F8FC /* Category+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataClass.swift"; sourceTree = "<group>"; };
+		46C3C1DD21F216D90073F8FC /* HeadyEcommerce.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HeadyEcommerce.xcdatamodel; sourceTree = "<group>"; };
+		46C3C1DE21F216D90073F8FC /* Varient+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Varient+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		46C3C1E721F244770073F8FC /* ProductDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailTableViewCell.swift; sourceTree = "<group>"; };
+		46C3C1E921F24E270073F8FC /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		46DA7DBF21EE529800695FA4 /* HerokuApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HerokuApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46DA7DC221EE529800695FA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46DA7DC721EE529800695FA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46DA7DCC21EE529A00695FA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46DA7DCF21EE529A00695FA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46DA7DD121EE529A00695FA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46DA7DD621EE529A00695FA4 /* HerokuAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HerokuAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46DA7DDA21EE529A00695FA4 /* HerokuAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerokuAppTests.swift; sourceTree = "<group>"; };
+		46DA7DDC21EE529A00695FA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46DA7DE121EE529A00695FA4 /* HerokuAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HerokuAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46DA7DE521EE529A00695FA4 /* HerokuAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerokuAppUITests.swift; sourceTree = "<group>"; };
+		46DA7DE721EE529A00695FA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46DA7DF421EE64A200695FA4 /* ServiceRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceRouter.swift; sourceTree = "<group>"; };
+		46E8149621EFA3C700654C1A /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		46E8149921EFBA2C00654C1A /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46DA7DBC21EE529800695FA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46DA7DD321EE529A00695FA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46DA7DDE21EE529A00695FA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46C3C1D021F1A7B50073F8FC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				46C3C1D121F1A82C0073F8FC /* CategoryTableViewCell.swift */,
+				46C3C1E721F244770073F8FC /* ProductDetailTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		46C3C1D521F216930073F8FC /* CoreData Models */ = {
+			isa = PBXGroup;
+			children = (
+				46C3C1DB21F216D90073F8FC /* Category+CoreDataClass.swift */,
+				46C3C1D921F216D90073F8FC /* Category+CoreDataProperties.swift */,
+				46C3C1D721F216D90073F8FC /* CoreDataManager.swift */,
+				46C3C1DC21F216D90073F8FC /* HerokuApp.xcdatamodeld */,
+				46C3C1D621F216D90073F8FC /* Product+CoreDataClass.swift */,
+				46C3C1DA21F216D90073F8FC /* Product+CoreDataProperties.swift */,
+				46C3C1D821F216D90073F8FC /* Varient+CoreDataClass.swift */,
+				46C3C1DE21F216D90073F8FC /* Varient+CoreDataProperties.swift */,
+			);
+			path = "CoreData Models";
+			sourceTree = "<group>";
+		};
+		46DA7DB621EE529800695FA4 = {
+			isa = PBXGroup;
+			children = (
+				46DA7DC121EE529800695FA4 /* HerokuApp */,
+				46DA7DD921EE529A00695FA4 /* HerokuAppTests */,
+				46DA7DE421EE529A00695FA4 /* HerokuAppUITests */,
+				46DA7DC021EE529800695FA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46DA7DC021EE529800695FA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46DA7DBF21EE529800695FA4 /* HerokuApp.app */,
+				46DA7DD621EE529A00695FA4 /* HerokuAppTests.xctest */,
+				46DA7DE121EE529A00695FA4 /* HerokuAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46DA7DC121EE529800695FA4 /* HerokuApp */ = {
+			isa = PBXGroup;
+			children = (
+				46C3C1E921F24E270073F8FC /* Reachability.swift */,
+				46E8149521EF8B8000654C1A /* APIConstants */,
+				46DA7DC221EE529800695FA4 /* AppDelegate.swift */,
+				46DA7DCC21EE529A00695FA4 /* Assets.xcassets */,
+				46C3C1D021F1A7B50073F8FC /* Cells */,
+				46C3C1D521F216930073F8FC /* CoreData Models */,
+				46DA7DD121EE529A00695FA4 /* Info.plist */,
+				46DA7DCE21EE529A00695FA4 /* LaunchScreen.storyboard */,
+				46DA7DC621EE529800695FA4 /* Main.storyboard */,
+				46DA7DF321EE641100695FA4 /* Service */,
+				46E8149821EFB8DB00654C1A /* ViewControllers */,
+			);
+			path = HerokuApp;
+			sourceTree = "<group>";
+		};
+		46DA7DD921EE529A00695FA4 /* HerokuAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				46DA7DDA21EE529A00695FA4 /* HerokuAppTests.swift */,
+				46DA7DDC21EE529A00695FA4 /* Info.plist */,
+			);
+			path = HerokuAppTests;
+			sourceTree = "<group>";
+		};
+		46DA7DE421EE529A00695FA4 /* HerokuAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46DA7DE521EE529A00695FA4 /* HerokuAppUITests.swift */,
+				46DA7DE721EE529A00695FA4 /* Info.plist */,
+			);
+			path = HerokuAppUITests;
+			sourceTree = "<group>";
+		};
+		46DA7DF321EE641100695FA4 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				46DA7DF421EE64A200695FA4 /* ServiceRouter.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		46E8149521EF8B8000654C1A /* APIConstants */ = {
+			isa = PBXGroup;
+			children = (
+				46E8149621EFA3C700654C1A /* AppConstants.swift */,
+			);
+			path = APIConstants;
+			sourceTree = "<group>";
+		};
+		46E8149821EFB8DB00654C1A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				46E8149921EFBA2C00654C1A /* CategoriesViewController.swift */,
+				46C3C1D321F1C0FD0073F8FC /* ProductsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46DA7DBE21EE529800695FA4 /* HerokuApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46DA7DEA21EE529A00695FA4 /* Build configuration list for PBXNativeTarget "HerokuApp" */;
+			buildPhases = (
+				46DA7DBB21EE529800695FA4 /* Sources */,
+				46DA7DBC21EE529800695FA4 /* Frameworks */,
+				46DA7DBD21EE529800695FA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HerokuApp;
+			productName = HerokuApp;
+			productReference = 46DA7DBF21EE529800695FA4 /* HerokuApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46DA7DD521EE529A00695FA4 /* HerokuAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46DA7DED21EE529A00695FA4 /* Build configuration list for PBXNativeTarget "HerokuAppTests" */;
+			buildPhases = (
+				46DA7DD221EE529A00695FA4 /* Sources */,
+				46DA7DD321EE529A00695FA4 /* Frameworks */,
+				46DA7DD421EE529A00695FA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46DA7DD821EE529A00695FA4 /* PBXTargetDependency */,
+			);
+			name = HerokuAppTests;
+			productName = HerokuAppTests;
+			productReference = 46DA7DD621EE529A00695FA4 /* HerokuAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46DA7DE021EE529A00695FA4 /* HerokuAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46DA7DF021EE529A00695FA4 /* Build configuration list for PBXNativeTarget "HerokuAppUITests" */;
+			buildPhases = (
+				46DA7DDD21EE529A00695FA4 /* Sources */,
+				46DA7DDE21EE529A00695FA4 /* Frameworks */,
+				46DA7DDF21EE529A00695FA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46DA7DE321EE529A00695FA4 /* PBXTargetDependency */,
+			);
+			name = HerokuAppUITests;
+			productName = HerokuAppUITests;
+			productReference = 46DA7DE121EE529A00695FA4 /* HerokuAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46DA7DB721EE529800695FA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Heroku;
+				TargetAttributes = {
+					46DA7DBE21EE529800695FA4 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					46DA7DD521EE529A00695FA4 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 46DA7DBE21EE529800695FA4;
+					};
+					46DA7DE021EE529A00695FA4 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 46DA7DBE21EE529800695FA4;
+					};
+				};
+			};
+			buildConfigurationList = 46DA7DBA21EE529800695FA4 /* Build configuration list for PBXProject "HerokuApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46DA7DB621EE529800695FA4;
+			productRefGroup = 46DA7DC021EE529800695FA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46DA7DBE21EE529800695FA4 /* HerokuApp */,
+				46DA7DD521EE529A00695FA4 /* HerokuAppTests */,
+				46DA7DE021EE529A00695FA4 /* HerokuAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46DA7DBD21EE529800695FA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46DA7DD021EE529A00695FA4 /* LaunchScreen.storyboard in Resources */,
+				46DA7DCD21EE529A00695FA4 /* Assets.xcassets in Resources */,
+				46DA7DC821EE529800695FA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46DA7DD421EE529A00695FA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46DA7DDF21EE529A00695FA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46DA7DBB21EE529800695FA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46DA7DF521EE64A200695FA4 /* ServiceRouter.swift in Sources */,
+				46C3C1E621F216D90073F8FC /* Varient+CoreDataProperties.swift in Sources */,
+				46C3C1E321F216D90073F8FC /* Product+CoreDataProperties.swift in Sources */,
+				46C3C1E421F216D90073F8FC /* Category+CoreDataClass.swift in Sources */,
+				46C3C1D421F1C0FD0073F8FC /* ProductsViewController.swift in Sources */,
+				46C3C1E021F216D90073F8FC /* CoreDataManager.swift in Sources */,
+				46C3C1DF21F216D90073F8FC /* Product+CoreDataClass.swift in Sources */,
+				46DA7DC321EE529800695FA4 /* AppDelegate.swift in Sources */,
+				46C3C1E821F244770073F8FC /* ProductDetailTableViewCell.swift in Sources */,
+				46C3C1E221F216D90073F8FC /* Category+CoreDataProperties.swift in Sources */,
+				46E8149721EFA3C700654C1A /* AppConstants.swift in Sources */,
+				46C3C1E121F216D90073F8FC /* Varient+CoreDataClass.swift in Sources */,
+				46E8149A21EFBA2C00654C1A /* CategoriesViewController.swift in Sources */,
+				46C3C1E521F216D90073F8FC /* HerokuApp.xcdatamodeld in Sources */,
+				46C3C1EA21F24E270073F8FC /* Reachability.swift in Sources */,
+				46C3C1D221F1A82C0073F8FC /* CategoryTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46DA7DD221EE529A00695FA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46DA7DDB21EE529A00695FA4 /* HerokuAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46DA7DDD21EE529A00695FA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46DA7DE621EE529A00695FA4 /* HerokuAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46DA7DD821EE529A00695FA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46DA7DBE21EE529800695FA4 /* HerokuApp */;
+			targetProxy = 46DA7DD721EE529A00695FA4 /* PBXContainerItemProxy */;
+		};
+		46DA7DE321EE529A00695FA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46DA7DBE21EE529800695FA4 /* HerokuApp */;
+			targetProxy = 46DA7DE221EE529A00695FA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46DA7DC621EE529800695FA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46DA7DC721EE529800695FA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46DA7DCE21EE529A00695FA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46DA7DCF21EE529A00695FA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46DA7DE821EE529A00695FA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46DA7DE921EE529A00695FA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46DA7DEB21EE529A00695FA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HerokuApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HerokuApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46DA7DEC21EE529A00695FA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HerokuApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HerokuApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		46DA7DEE21EE529A00695FA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HerokuAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HerokuAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HerokuApp.app/HerokuApp";
+			};
+			name = Debug;
+		};
+		46DA7DEF21EE529A00695FA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HerokuAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HerokuAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HerokuApp.app/HerokuApp";
+			};
+			name = Release;
+		};
+		46DA7DF121EE529A00695FA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HerokuAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HerokuAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HerokuApp;
+			};
+			name = Debug;
+		};
+		46DA7DF221EE529A00695FA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HerokuAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HerokuAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HerokuApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46DA7DBA21EE529800695FA4 /* Build configuration list for PBXProject "HerokuApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46DA7DE821EE529A00695FA4 /* Debug */,
+				46DA7DE921EE529A00695FA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46DA7DEA21EE529A00695FA4 /* Build configuration list for PBXNativeTarget "HerokuApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46DA7DEB21EE529A00695FA4 /* Debug */,
+				46DA7DEC21EE529A00695FA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46DA7DED21EE529A00695FA4 /* Build configuration list for PBXNativeTarget "HerokuAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46DA7DEE21EE529A00695FA4 /* Debug */,
+				46DA7DEF21EE529A00695FA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46DA7DF021EE529A00695FA4 /* Build configuration list for PBXNativeTarget "HerokuAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46DA7DF121EE529A00695FA4 /* Debug */,
+				46DA7DF221EE529A00695FA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		46C3C1DC21F216D90073F8FC /* HerokuApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				46C3C1DD21F216D90073F8FC /* HeadyEcommerce.xcdatamodel */,
+			);
+			currentVersion = 46C3C1DD21F216D90073F8FC /* HeadyEcommerce.xcdatamodel */;
+			path = HerokuApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 46DA7DB721EE529800695FA4 /* Project object */;
+}
